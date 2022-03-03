@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import { Text, Box, Color, useInput } from "ink";
+import { Text, Box, Color } from "ink";
 import { observer } from "mobx-react-lite";
-import { StoreContext, Store } from "../../store";
+import { StoreContext } from "../../store";
 
 export const Footer = observer(() => {
   const store = useContext(StoreContext);
@@ -15,7 +15,7 @@ export const Footer = observer(() => {
   }
 
   return (
-    <Box marginY={1}>
+    <Box>
       <Color gray>
         <Text bold>{hint}</Text>
       </Color>

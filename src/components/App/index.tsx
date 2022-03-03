@@ -11,10 +11,11 @@ export const App = observer((props: { keywords: string; hl: string }) => {
   const store = useContext(StoreContext);
   useEffect(() => {
     store.lang = props.hl;
+    store.input = props.keywords;
   }, []);
 
   if (store.isCleanUpTime) {
-    return <Box marginY={1}>Wiki-cli closed</Box>;
+    return <Box>Wiki-cli closed</Box>;
   } else {
     return (
       <Box flexDirection={"column"}>

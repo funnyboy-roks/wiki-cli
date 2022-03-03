@@ -13,23 +13,17 @@ export const Details = observer(() => {
 
     if (key.return) {
       open(store.selectedURL);
-    } else if (key.escape) {
-      store.toggleDetails();
-    }
-
-    if (input === "q") {
+    } else if (key.escape || input === "q") {
       store.toggleDetails();
     }
   });
 
   return (
-    <Box flexDirection="column" marginY={1}>
+    <Box flexDirection="column">
       <InkBox borderStyle="double">
         <Text bold>{store.article.title}</Text>
       </InkBox>
-      <Box textWrap="wrap" marginTop={1}>
-        {store.article.summary}
-      </Box>
+      <Box textWrap="wrap">{store.article.summary}</Box>
     </Box>
   );
 });

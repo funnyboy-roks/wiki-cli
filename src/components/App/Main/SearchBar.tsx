@@ -8,7 +8,7 @@ export const SearchBar = observer(() => {
   const store = useContext(StoreContext);
 
   return (
-    <Box marginY={1}>
+    <Box>
       <Color blue>
         <Text bold>Keywords: </Text>
       </Color>

@@ -6,7 +6,8 @@ import { SearchBar } from "../Main/SearchBar";
 
 export const Main = () => {
   const store = useContext(StoreContext);
-  useInput((_, key) => {
+  store.updateInputs(store.input);
+  useInput((input, key) => {
     if (!key) return;
 
     if (key.upArrow) {
@@ -17,7 +18,7 @@ export const Main = () => {
       store.toggleDetails();
     }
 
-    if (key.escape) {
+    if (key.escape || (key.ctrl && input === "c")) {
       store.isCleanUpTime = true;
       process.exit(0);
     }

@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hexrcs/wiki-cli.git"
+    "url": "git+ssh://git@github.com/funnyboy-roks/wiki-cli.git"
   },
   "keywords": [
     "search",
@@ -30,12 +30,12 @@
     "ink",
     "terminal"
   ],
-  "author": "Xiaoru Li",
+  "author": "Xiaoru Li, LucasAschenbach, funnyboy_roks",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/hexrcs/wiki-cli/issues"
+    "url": "https://github.com/funnyboy-roks/wiki-cli/issues"
   },
-  "homepage": "https://github.com/hexrcs/wiki-cli#readme",
+  "homepage": "https://github.com/funnyboy-roks/wiki-cli#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "got": "^10.2.2",

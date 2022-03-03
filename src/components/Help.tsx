@@ -11,11 +11,11 @@ export const Help = () => {
       </Gradient>
       <Box>
         <Color blue>
-          <Text bold>v0.0.4</Text>
+          <Text bold>v0.1.0</Text>
         </Color>
       </Box>
-      <Box margin={1}>
-        <Text bold>Just type what you wanna look up! :)</Text>
+      <Box marginX={1}>
+        <Text bold>Usage: wiki [search] [--help] [--lang]</Text>
       </Box>
     </Box>
   );
