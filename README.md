@@ -8,7 +8,7 @@ Search Wikipedia and read summaries directly in your terminal!
 
 ```
 # The first step is obvious...
-npm i -g wiki-cli
+npm i -g @funnyboy_roks/wiki-cli
 
 # Then, just call `wiki` alone to enter the interactive mode...
 wiki
