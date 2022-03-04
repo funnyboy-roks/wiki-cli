@@ -23,3 +23,7 @@ wiki [keywords]
 ## License
 
 GPL-3.0
+
+## Contributors
+
+Originally written by [Xiaoru Li](https://github.com/hexrcs), modified by [LucasAschenbach](https://github.com/LucasAschenbach) and [myself](https://github.com/funnyboy-roks)
